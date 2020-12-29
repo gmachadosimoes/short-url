@@ -3,7 +3,7 @@ import bitly_api
 
 app = Flask(__name__)
 
-BITLY_ACCESS_TOKEN = 'd88405c8b374e9aa3d981ff64ff7f09450e700af'
+BITLY_ACCESS_TOKEN = '##########################' # Insert your Bitly credentials here
 access = bitly_api.Connection(access_token = BITLY_ACCESS_TOKEN)
 
 # This needs to be inserted into the HTML as a form with a button to return the shortened link
